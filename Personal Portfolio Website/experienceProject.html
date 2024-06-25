@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en"> 
     <head> 
         <title>Experience/Projects</title>
         <meta name = "Experience/Projects" content = "Page that goes through my experience and projects" />
@@ -8,69 +8,82 @@
     </head>
 
     <body>
-        <div> <!--tab section-->
-            <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
-            <a href = "./homeIndex.html">Home</a> 
-            <br>
-            <a href = "./aboutMe.html">About me</a>
-            <br>
-            <a href = "./experienceProject.html">Experience/Projects</a>
-            <br>
-            <a href = "./goals.html">Goals</a>
-            <br>
-            <a href = "./courseWork.html">Relevant Course Work</a>
-            <br>
-            <a href = "./hobbies.html">Hobbies</a>
-            <br>
-            <a href = "./socialContact.html">Social/Contact</a>
-        </div> <!--end of tab section-->
+        <header>
+            <nav> <!--Tab section-->
+                <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
+                <a href = "./homeIndex.html">Home</a> 
+                <br>
+                <a href = "./aboutMe.html">About me</a>
+                <br>
+                <a href = "./experienceProject.html">Experience/Projects</a>
+                <br>
+                <a href = "./goals.html">Goals</a>
+                <br>
+                <a href = "./courseWork.html">Relevant Course Work</a>
+                <br>
+                <a href = "./hobbies.html">Hobbies</a>
+                <br>
+                <a href = "./socialContact.html">Social/Contact</a>
+    
+                <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+            </nav> <!--end of tab section-->
+    
+            <div> <!--Welcome section-->
+                <h1 experiencePage = "experience/projects page title">Experience/Projects</h1>        <!--put this in the very center of the screen -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
+            
+            <div> <!--Hyperlink Socials section-->
+                <!--will adjust the size later with css, also adjust the background color for these-->
+                <!--this will be fixed to the screen-->
+                <form action = "https://github.com/prethelalam" target = blank>
+                    <button> 
+                        <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                    <button>
+                        <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                    <button>
+                        <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
+                    </button>
+                </form>
+    
+                <form action = mailto:prethelalam@gmail.com target blank>
+                    <button>
+                        <img src = "images/emailLogo.png" alt = "Email logo link" />
+                    </button>
+                </form>
+            </div> <!--end of hyperlink socials section-->
+        </header>   
 
-        <div> <!--title section-->
-            <h1>Experience/Projects</h1> <!--put this in the middle top of the screen-->
-        </div> <!--end of title section-->
 
-        <div> <!--socials section will be here as well-->
-            <!--will adjust the size later with css, also adjust the background color for these-->
-            <!--this will be fixed to the screen-->
-            <form action = "https://github.com/prethelalam" target = blank>
-                <button> 
-                    <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
-                </button>
-            </form>
 
-            <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
-                <button>
-                    <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
-                </button>
-            </form>
 
-            <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
-                <button>
-                    <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
-                </button>
-            </form>
+        <main>
+            <section>
+                <div> <!--Picture/link to project section-->
 
-            <form action = mailto:prethelalam@gmail.com target blank>
-                <button>
-                    <img src = "images/emailLogo.png" alt = "Email logo link" />
-                </button>
-            </form>
-        </div> <!--end of socials section-->
+                </div> <!--end of picture section-->
+            </section>
 
-        <div> <!--Picture/link to project section-->
-
-        </div> <!--end of picture section-->
-
-        <div> <!--description section-->
-            <!--description of this website-->
-            <p>I built a personal portfolio website using HTML5, CSS3, and JavaScript, teaching myself these technologies in the process. The website showcases my skills, relevant coursework, projects, experiences, future goals, and hobbies/interests. It serves as a professional platform to present my capabilities to potential employers, providing them with a comprehensive understanding of who I am and what I bring to the table.</p>
-
-            <!--description of consultant website-->
-            <p>I developed a professional website for an independent consultant affiliated with Ambit Energy, during which I taught myself HTML5, CSS3, and JavaScript. The site highlights both Ambit Energy's business and the consultant's services, aiming to attract potential clients. It provides detailed information about Ambit Energy and the consultant, emphasizing why users should choose my client over the competition. The goal is to enhance the consultant's online presence and create an informative, engaging platform that drives business and services inquiries.</p>
-
-            <!--description of med minder-->
-            <p>I developed an iOS app called MedMinder using Swift. MedMinder allows users to store and manage their medication information. The app enables users to update their medication list, helping them keep track of what medications they've taken in the past, including dosages, times, and duration. Designed with responsiveness in mind, MedMinder ensures an optimal user experience on all iOS devices.</p>
-
-        </div> <!--end of description section-->
+            <section>
+                <div> <!--description section-->
+                    <!--description of this website-->
+                    <p>I built a personal portfolio website using HTML5, CSS3, and JavaScript, teaching myself these technologies in the process. The website showcases my skills, relevant coursework, projects, experiences, future goals, and hobbies/interests. It serves as a professional platform to present my capabilities to potential employers, providing them with a comprehensive understanding of who I am and what I bring to the table.</p>
+        
+                    <!--description of consultant website-->
+                    <p>I developed a professional website for an independent consultant affiliated with Ambit Energy, during which I taught myself HTML5, CSS3, and JavaScript. The site highlights both Ambit Energy's business and the consultant's services, aiming to attract potential clients. It provides detailed information about Ambit Energy and the consultant, emphasizing why users should choose my client over the competition. The goal is to enhance the consultant's online presence and create an informative, engaging platform that drives business and services inquiries.</p>
+        
+                    <!--description of med minder-->
+                    <p>I developed an iOS app called MedMinder using Swift. MedMinder allows users to store and manage their medication information. The app enables users to update their medication list, helping them keep track of what medications they've taken in the past, including dosages, times, and duration. Designed with responsiveness in mind, MedMinder ensures an optimal user experience on all iOS devices.</p>
+                </div> <!--end of description section-->
+            </section>
+        </main>
     </body>
 </html>

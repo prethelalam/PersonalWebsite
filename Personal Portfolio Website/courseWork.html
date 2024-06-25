@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
-<!--not sure about how i want to set up the page--> 
-<html>
+<html lang="en"> 
     <head> 
         <title>Relevant Course Work</title>
         <meta name = "Relevant Course Work" content = "Page that explains my relevant course work throughout college" />
@@ -9,118 +8,134 @@
     </head>
 
     <body>
-        <div> <!--tab section-->
-            <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
-            <a href = "./homeIndex.html">Home</a> 
-            <br>
-            <a href = "./aboutMe.html">About me</a>
-            <br>
-            <a href = "./experienceProject.html">Experience/Projects</a>
-            <br>
-            <a href = "./goals.html">Goals</a>
-            <br>
-            <a href = "./courseWork.html">Relevant Course Work</a>
-            <br>
-            <a href = "./hobbies.html">Hobbies</a>
-            <br>
-            <a href = "./socialContact.html">Social/Contact</a>
-        </div> <!--end of tab section-->
-
-        <div> <!--title section-->
-            <h1>Relevant Course Work</h1> <!--put this in the middle top of the screen-->
-        </div> <!--end of title section-->
-
-        <div> <!--socials section will be here as well-->
-            <!--will adjust the size later with css, also adjust the background color for these-->
-            <!--this will be fixed to the screen-->
-            <form action = "https://github.com/prethelalam" target = blank>
-                <button> 
-                    <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
-                <button>
-                    <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
-                <button>
-                    <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
-                </button>
-            </form>
-
-            <form action = mailto:prethelalam@gmail.com target blank>
-                <button>
-                    <img src = "images/emailLogo.png" alt = "Email logo link" />
-                </button>
-            </form>
-        </div> <!--end of socials section-->
-
-        <div> <!--relevant course work section (not sure where this will be on the screen)-->
-            <!--image goes here (this is gonna go on the left side)-->
-            <ul>
-                <li>Healthcare Related Courses</li>
-                    <ul>
-                        <li>Healthcare Regulatory Environment</li>
-                        <li>Project Management</li>
-                        <li>Introduction to Healthcare Information Systems</li>
-                        <li>Advanced Business Communication</li>
-                    </ul>
+        <header>
+            <nav> <!--Tab section-->
+                <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
+                <a href = "./homeIndex.html">Home</a> 
                 <br>
-
-                <li>Math/Science Related Courses</li>
-                    <ul>
-                        <li>Calculus 1 (Differential Calculus)</li>
-                        <li>Calculus 2 (Integral Calculus)</li>
-                        <li>Discrete Math</li>
-                        <li>Linear Algebra</li>
-                        <li>Physics 1 (Mechanics)</li>
-                        <li>Physics 2 (Electromagnetism and Waves)</li>
-                    </ul>
+                <a href = "./aboutMe.html">About me</a>
                 <br>
-
-                <li>Computer Science Related Courses</li>
-                    <ul>
-                        <li>Programming Fundamentals 1 (C++)</li>
-                        <li>Programming Fundamentals 2 (Java)</li>
-                        <li>Programming Fundamentals 3 (Java)</li>
-                        <li>Computer Architecture (Assembly)</li>
-                    </ul>
+                <a href = "./experienceProject.html">Experience/Projects</a>
                 <br>
-            </ul>
-        </div> <!--end of relevant course work-->
-
-        <div> <!--relevant course work picture section-->
-            <img src = "images/UT Dallas_PMS 158.jpg" alt = "UTD logo" />
-        </div>
-
-        <div> <!--skills section-->
-            <ul>
-                <li>Programming Related</li>
-                    <ul>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Java Swing</li>
-                        <li>SQL</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                    </ul>
+                <a href = "./goals.html">Goals</a>
                 <br>
-                <li>Administrative Related</li> <!--maybe change this title-->
-                    <ul>
-                        <li>Time Management</li>
-                        <li>Strong Communication</li>
-                        <li>Analtical</li>
-                        <li>Problem Solving</li>
-                    </ul>
+                <a href = "./courseWork.html">Relevant Course Work</a>
                 <br>
-            </ul>
-        </div> <!--end of skills section-->
+                <a href = "./hobbies.html">Hobbies</a>
+                <br>
+                <a href = "./socialContact.html">Social/Contact</a>
+    
+                <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+            </nav> <!--end of tab section-->
+    
+            <div> <!--Welcome section-->
+                <h1 courseWorkPage = "course work page title">Course Work/Skills</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
+            
+            <div> <!--Hyperlink Socials section-->
+                <!--will adjust the size later with css, also adjust the background color for these-->
+                <!--this will be fixed to the screen-->
+                <form action = "https://github.com/prethelalam" target = blank>
+                    <button> 
+                        <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                    <button>
+                        <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                    <button>
+                        <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
+                    </button>
+                </form>
+    
+                <form action = mailto:prethelalam@gmail.com target blank>
+                    <button>
+                        <img src = "images/emailLogo.png" alt = "Email logo link" />
+                    </button>
+                </form>
+            </div> <!--end of hyperlink socials section-->
+        </header>   
 
-        <div> <!--skills picture section-->
-            <img src = "images/skillsPicture.jpg" alt = "Skills Picture" />
-        </div>
+        <main>
+            <section>
+                <div> <!--relevant course work section (not sure where this will be on the screen)-->
+                    <!--image goes here (this is gonna go on the left side)-->
+                    <ul>
+                        <li>Healthcare Related Courses</li>
+                            <ul>
+                                <li>Healthcare Regulatory Environment</li>
+                                <li>Project Management</li>
+                                <li>Introduction to Healthcare Information Systems</li>
+                                <li>Advanced Business Communication</li>
+                            </ul>
+                        <br>
+        
+                        <li>Math/Science Related Courses</li>
+                            <ul>
+                                <li>Calculus 1 (Differential Calculus)</li>
+                                <li>Calculus 2 (Integral Calculus)</li>
+                                <li>Discrete Math</li>
+                                <li>Linear Algebra</li>
+                                <li>Physics 1 (Mechanics)</li>
+                                <li>Physics 2 (Electromagnetism and Waves)</li>
+                            </ul>
+                        <br>
+        
+                        <li>Computer Science Related Courses</li>
+                            <ul>
+                                <li>Programming Fundamentals 1 (C++)</li>
+                                <li>Programming Fundamentals 2 (Java)</li>
+                                <li>Programming Fundamentals 3 (Java)</li>
+                                <li>Computer Architecture (Assembly)</li>
+                            </ul>
+                        <br>
+                    </ul>
+                </div> <!--end of relevant course work-->
+            </section>
+
+            <section>
+                <div> <!--relevant course work picture section-->
+                    <img src = "images/UT Dallas_PMS 158.jpg" alt = "UTD logo" />
+                </div>
+            </section>
+
+            <section>
+                <div> <!--skills section-->
+                    <ul>
+                        <li>Programming Related</li>
+                            <ul>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Java Swing</li>
+                                <li>SQL</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        <br>
+                        <li>Administrative Related</li> <!--maybe change this title-->
+                            <ul>
+                                <li>Time Management</li>
+                                <li>Strong Communication</li>
+                                <li>Analtical</li>
+                                <li>Problem Solving</li>
+                            </ul>
+                        <br>
+                    </ul>
+                </div> <!--end of skills section-->
+            </section>
+
+            <section>
+                <div> <!--skills picture section-->
+                    <img src = "images/skillsPicture.jpg" alt = "Skills Picture" />
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

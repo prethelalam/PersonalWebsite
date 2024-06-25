@@ -1,83 +1,94 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en"> 
     <head> 
         <title>Hobbies/Interests</title>
         <meta name = "Hobbies/Interests" content = "Page that goes through my hobbies and interests" />
         <meta http-equib = "Author" content = "Prethel Alam" />
     </head>
 
-    <body>
-        <div> <!--tab section-->
-            <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
-            <a href = "./homeIndex.html">Home</a> 
-            <br>
-            <a href = "./aboutMe.html">About me</a>
-            <br>
-            <a href = "./experienceProject.html">Experience/Projects</a>
-            <br>
-            <a href = "./goals.html">Goals</a>
-            <br>
-            <a href = "./courseWork.html">Relevant Course Work</a>
-            <br>
-            <a href = "./hobbies.html">Hobbies</a>
-            <br>
-            <a href = "./socialContact.html">Social/Contact</a>
-        </div> <!--end of tab section-->
+    <body> <!--make this a header tab, dont need to use section here. use nav for linkes-->
+        <header>
+            <nav> <!--Tab section-->
+                <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
+                <a href = "./homeIndex.html">Home</a> 
+                <br>
+                <a href = "./aboutMe.html">About me</a>
+                <br>
+                <a href = "./experienceProject.html">Experience/Projects</a>
+                <br>
+                <a href = "./goals.html">Goals</a>
+                <br>
+                <a href = "./courseWork.html">Relevant Course Work</a>
+                <br>
+                <a href = "./hobbies.html">Hobbies</a>
+                <br>
+                <a href = "./socialContact.html">Social/Contact</a>
+    
+                <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+            </nav> <!--end of tab section-->
+    
+            <div> <!--Welcome section-->
+                <h1 hobbiesPage = "hobbies/interest page title">Hobbies/Interest</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
+            
+            <div> <!--Hyperlink Socials section-->
+                <!--will adjust the size later with css, also adjust the background color for these-->
+                <!--this will be fixed to the screen-->
+                <form action = "https://github.com/prethelalam" target = blank>
+                    <button> 
+                        <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                    <button>
+                        <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                    <button>
+                        <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
+                    </button>
+                </form>
+    
+                <form action = mailto:prethelalam@gmail.com target blank>
+                    <button>
+                        <img src = "images/emailLogo.png" alt = "Email logo link" />
+                    </button>
+                </form>
+            </div> <!--end of hyperlink socials section-->
+        </header>   
 
-        <div> <!--title section-->
-            <h1>Hobbies/Interests</h1> <!--put this in the middle top of the screen-->
-        </div> <!--end of title section-->
+        <main>
+            <section>
+                <div> <!--Hobbies section-->
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Golf</li>
+                        <li>Basketball</li>
+                        <li>Long boarding</li>
+                        <li>Exercising</li>
+                    </ul>
+                </div> <!--end of Hobbies section-->
+            </section>
 
-        <div> <!--socials section will be here as well-->
-            <!--will adjust the size later with css, also adjust the background color for these-->
-            <!--this will be fixed to the screen-->
-            <form action = "https://github.com/prethelalam" target = blank>
-                <button> 
-                    <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
-                </button>
-            </form>
+            <br> <!--with css, make a section break here-->
 
-            <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
-                <button>
-                    <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
-                <button>
-                    <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
-                </button>
-            </form>
-
-            <form action = mailto:prethelalam@gmail.com target blank>
-                <button>
-                    <img src = "images/emailLogo.png" alt = "Email logo link" />
-                </button>
-            </form>
-        </div> <!--end of socials section-->
-
-        <div> <!--Hobbies section-->
-            <h2>Hobbies</h2>
-            <ul>
-                <li>Golf</li>
-                <li>Basketball</li>
-                <li>Long boarding</li>
-                <li>Exercising</li>
-            </ul>
-        </div> <!--end of Hobbies section-->
-
-        <br> <!--with css, make a section break here-->
+            <section>
+                <div> <!--interests section-->
+                    <h2>Interests</h2>
+                    <ul>
+                        <li>Artifical Intellgience/Machine Learning</li>
+                        <li>Healthcare Software</li>
+                        <li>Research</li>
+                        <li>Math</li>
+                    </ul>
         
-        <div> <!--interests section-->
-            <h2>Interests</h2>
-            <ul>
-                <li>Artifical Intellgience/Machine Learning</li>
-                <li>Healthcare Software</li>
-                <li>Research</li>
-                <li>Math</li>
-            </ul>
-
-        </div> <!--end of interests section-->
+                </div> <!--end of interests section-->
+            </section>
+        </main>
     </body>
 </html>

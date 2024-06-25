@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--for this page, split it in half, where the first half is about short term goals and the other half is long term goals--> 
-<html>
+<html lang="en"> 
     <head> 
         <title>Future Goals</title>
         <meta name = "Future Goals" content = "Page that explains my short term and long term goals" />
@@ -9,64 +9,76 @@
     </head>
 
     <body>
-        <div> <!--tab section-->
-            <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
-            <a href = "./homeIndex.html">Home</a> 
-            <br>
-            <a href = "./aboutMe.html">About me</a>
-            <br>
-            <a href = "./experienceProject.html">Experience/Projects</a>
-            <br>
-            <a href = "./goals.html">Goals</a>
-            <br>
-            <a href = "./courseWork.html">Relevant Course Work</a>
-            <br>
-            <a href = "./hobbies.html">Hobbies</a>
-            <br>
-            <a href = "./socialContact.html">Social/Contact</a>
-        </div> <!--end of tab section-->
+        <header>
+            <nav> <!--Tab section-->
+                <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
+                <a href = "./homeIndex.html">Home</a> 
+                <br>
+                <a href = "./aboutMe.html">About me</a>
+                <br>
+                <a href = "./experienceProject.html">Experience/Projects</a>
+                <br>
+                <a href = "./goals.html">Goals</a>
+                <br>
+                <a href = "./courseWork.html">Relevant Course Work</a>
+                <br>
+                <a href = "./hobbies.html">Hobbies</a>
+                <br>
+                <a href = "./socialContact.html">Social/Contact</a>
+    
+                <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+            </nav> <!--end of tab section-->
+    
+            <div> <!--Welcome section-->
+                <h1 goalsPage = "goals page title">Goals</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
+            
+            <div> <!--Hyperlink Socials section-->
+                <!--will adjust the size later with css, also adjust the background color for these-->
+                <!--this will be fixed to the screen-->
+                <form action = "https://github.com/prethelalam" target = blank>
+                    <button> 
+                        <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                    <button>
+                        <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                    <button>
+                        <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
+                    </button>
+                </form>
+    
+                <form action = mailto:prethelalam@gmail.com target blank>
+                    <button>
+                        <img src = "images/emailLogo.png" alt = "Email logo link" />
+                    </button>
+                </form>
+            </div> <!--end of hyperlink socials section-->
+        </header>   
 
-        <div> <!--title section-->
-            <h1>Future Goals</h1> <!--put this in the middle top of the screen-->
-        </div> <!--end of title section-->
+        <main>
+            <section>
+                <div> <!--short term goals section (will be on left side of screen)-->
+                    <h2>Short-Term Goals</h2>
+                    <p>My short-term goals include securing an internship every summer until I graduate to acquire hands-on industry experience. I am committed to developing a high-level project each semester highlighting my healthcare, computer science, and coding expertise, providing tangible evidence of my capabilities to prospective employers. I aim to achieve proficiency in web and app development and to deepen my understanding of artificial intelligence and machine learning. Furthermore, I aspire to graduate with honors from the University of Texas at Dallas and have a job offer upon completing my degree.</p>
+                    <!--image goes here-->
+                </div> <!--end of short term goals-->
+            </section>
 
-        <div> <!--socials section will be here as well-->
-            <!--will adjust the size later with css, also adjust the background color for these-->
-            <!--this will be fixed to the screen-->
-            <form action = "https://github.com/prethelalam" target = blank>
-                <button> 
-                    <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
-                <button>
-                    <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
-                <button>
-                    <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
-                </button>
-            </form>
-
-            <form action = mailto:prethelalam@gmail.com target blank>
-                <button>
-                    <img src = "images/emailLogo.png" alt = "Email logo link" />
-                </button>
-            </form>
-        </div> <!--end of socials section-->
-
-        <div> <!--short term goals section (will be on left side of screen)-->
-            <h2>Short-Term Goals</h2>
-            <p>My short-term goals include securing an internship every summer until I graduate to acquire hands-on industry experience. I am committed to developing a high-level project each semester highlighting my healthcare, computer science, and coding expertise, providing tangible evidence of my capabilities to prospective employers. I aim to achieve proficiency in web and app development and to deepen my understanding of artificial intelligence and machine learning. Furthermore, I aspire to graduate with honors from the University of Texas at Dallas and have a job offer upon completing my degree.</p>
-            <!--image goes here-->
-        </div> <!--end of short term goals-->
-
-        <div> <!--long term goals section (will be on the right side of screen)-->
-            <h2>Long-Term Goals</h2>
-            <p>My long-term objectives include securing a full-time software engineering position at a leading healthcare software company, a software firm, or a technology company. In these roles, I aim to refine my existing skills and acquire new competencies, with the ultimate goal of advancing to the position of Chief Technology Officer (CTO) at a respected organization. Additionally, I intend to develop my own Electronic Health Record (EHR) software that integrates machine learning and artificial intelligence to enhance clinical care quality and patient outcomes while alleviating the administrative burden on healthcare providers and their staff.</p>
-            <!--image goes here-->
-        </div> <!--end of long term goals section-->
+            <section>
+                <div> <!--long term goals section (will be on the right side of screen)-->
+                    <h2>Long-Term Goals</h2>
+                    <p>My long-term objectives include securing a full-time software engineering position at a leading healthcare software company, a software firm, or a technology company. In these roles, I aim to refine my existing skills and acquire new competencies, with the ultimate goal of advancing to the position of Chief Technology Officer (CTO) at a respected organization. Additionally, I intend to develop my own Electronic Health Record (EHR) software that integrates machine learning and artificial intelligence to enhance clinical care quality and patient outcomes while alleviating the administrative burden on healthcare providers and their staff.</p>
+                    <!--image goes here-->
+                </div> <!--end of long term goals section-->
+            </section>
+        </main>
+    </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en"> 
     <head>
         <title>About me</title>
         <meta name = "About me" content = "About me page that introduces Prethel" />
@@ -8,67 +8,76 @@
     </head>
 
     <body>
-        <div> <!--tab section-->
-            <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
-            <a href = "./homeIndex.html">Home</a> 
-            <br>
-            <a href = "./aboutMe.html">About me</a>
-            <br>
-            <a href = "./experienceProject.html">Experience/Projects</a>
-            <br>
-            <a href = "./goals.html">Goals</a>
-            <br>
-            <a href = "./courseWork.html">Relveant Course Work</a>
-            <br>
-            <a href = "./hobbies.html">Hobbies</a>
-            <br>
-            <a href = "./socialContact.html">Social/Contact</a>
-        </div> <!--end of tab section-->
-
-        <div> <!--title section-->
-            <h1>My Story</h1> <!--put this in the middle top of the screen-->
-        </div> <!--end of title section-->
-
-        <div> <!--socials section will be here as well-->
-            <!--will adjust the size later with css, also adjust the background color for these-->
-            <!--this will be fixed to the screen-->
-            <form action = "https://github.com/prethelalam" target = blank>
-                <button> 
-                    <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
-                <button>
-                    <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
-                </button>
-            </form>
-
-            <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
-                <button>
-                    <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
-                </button>
-            </form>
-
-            <form action = mailto:prethelalam@gmail.com target blank>
-                <button>
-                    <img src = "images/emailLogo.png" alt = "Email logo link" />
-                </button>
-            </form>
-        </div> <!--end of socials section-->
+        <header>
+            <nav> <!--Tab section-->
+                <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
+                <a href = "./homeIndex.html">Home</a> 
+                <br>
+                <a href = "./aboutMe.html">About me</a>
+                <br>
+                <a href = "./experienceProject.html">Experience/Projects</a>
+                <br>
+                <a href = "./goals.html">Goals</a>
+                <br>
+                <a href = "./courseWork.html">Relevant Course Work</a>
+                <br>
+                <a href = "./hobbies.html">Hobbies</a>
+                <br>
+                <a href = "./socialContact.html">Social/Contact</a>
+    
+                <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+            </nav> <!--end of tab section-->
+    
+            <div> <!--Welcome section-->
+                <h1 aboutPage = "about page title">My Story!</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
+            
+            <div> <!--Hyperlink Socials section-->
+                <!--will adjust the size later with css, also adjust the background color for these-->
+                <!--this will be fixed to the screen-->
+                <form action = "https://github.com/prethelalam" target = blank>
+                    <button> 
+                        <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                    <button>
+                        <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
+                    </button>
+                </form>
+    
+                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                    <button>
+                        <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
+                    </button>
+                </form>
+    
+                <form action = mailto:prethelalam@gmail.com target blank>
+                    <button>
+                        <img src = "images/emailLogo.png" alt = "Email logo link" />
+                    </button>
+                </form>
+            </div> <!--end of hyperlink socials section-->
+        </header>   
         
+        <main>
+            <section>
+                <div> <!--picture section-->
+                    <!--insert a picture right here of yourself-->
+                </div> <!--end of picture section-->
+            </section>
 
-        <div> <!--picture section-->
-            <!--insert a picture right here of yourself-->
-        </div> <!--end of picture section-->
-
-        <div> <!--description section. adjust the text here (list your qualities and capabilities and then state youre passionate and driven. my name is prethel alam, a cs student at utd...)-->
-            <h5>Hi there!</h5>
-            <p>I'm Prethel Alam, a passionate and driven student at The University of Texas at Dallas (UTD). I am pursuing my second bachelor's degree in computer science. I graduated Magna Cum Laude in May 2023 with a B.S. in Healthcare Management from UTD.</p>
-            <p>My journey into the world of technology began during my Healthcare Management studies, where I discovered the transformative potential of technology in the healthcare industry. I realized that significant advancements in healthcare could be achieved through technological innovation, sparking my interest in becoming a catalyst for positive change in this field. Determined to make a difference, I embarked on a self-taught programming journey. With a borrowed C++ textbook from a friend, I built my first projects: a text adventure game and a candy store manager program. These initial projects ignited a passion for programming, leading me to explore further. I soon found myself captivated by the curriculum of UTD's Computer Science program. The prospect of diving deep into this new discipline excited me, and I began learning Java, a language extensively used in my coursework.</p>
-            <p>This journey has allowed me to develop various projects and deepen my understanding of programming concepts. I am expanding my skill set by teaching myself HTML5, CSS3, and JavaScript by creating a fully functioning and responsive website to showcase my abilities and further immerse myself in Computer Science. When I'm not coding, you can find me exploring the fascinating intersection of healthcare and technology, always seeking new ways to make a meaningful impact.</p>
-            <p>Let's connect and create something extraordinary together! Feel free to contact me at prethelalam@gmail.com or connect with me on <a href = "https://www.linkedin.com/in/prethelalam/">LinkedIn.</a>
-        </div> <!--end of description section-->
-        
+            <section>
+                <div> <!--description section. adjust the text here (list your qualities and capabilities and then state youre passionate and driven. my name is prethel alam, a cs student at utd...)-->
+                    <h5>Hi there!</h5>
+                    <p>I'm Prethel Alam, a passionate and driven student at The University of Texas at Dallas (UTD). I am pursuing my second bachelor's degree in computer science. I graduated Magna Cum Laude in May 2023 with a B.S. in Healthcare Management from UTD.</p>
+                    <p>My journey into the world of technology began during my Healthcare Management studies, where I discovered the transformative potential of technology in the healthcare industry. I realized that significant advancements in healthcare could be achieved through technological innovation, sparking my interest in becoming a catalyst for positive change in this field. Determined to make a difference, I embarked on a self-taught programming journey. With a borrowed C++ textbook from a friend, I built my first projects: a text adventure game and a candy store manager program. These initial projects ignited a passion for programming, leading me to explore further. I soon found myself captivated by the curriculum of UTD's Computer Science program. The prospect of diving deep into this new discipline excited me, and I began learning Java, a language extensively used in my coursework.</p>
+                    <p>This journey has allowed me to develop various projects and deepen my understanding of programming concepts. I am expanding my skill set by teaching myself HTML5, CSS3, and JavaScript by creating a fully functioning and responsive website to showcase my abilities and further immerse myself in Computer Science. When I'm not coding, you can find me exploring the fascinating intersection of healthcare and technology, always seeking new ways to make a meaningful impact.</p>
+                    <p>Let's connect and create something extraordinary together! Feel free to contact me at prethelalam@gmail.com or connect with me on <a href = "https://www.linkedin.com/in/prethelalam/">LinkedIn.</a>
+                </div> <!--end of description section-->
+            </section>
+        </main>
     </body>
 </html>
