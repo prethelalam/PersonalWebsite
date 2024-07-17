@@ -1,0 +1,73 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 75px 100px 75px 100px;
+    background-color: lightgreen; /*will delete this color later */
+}
+
+/*
+.navBar, .socials {
+    display: inline;
+} */
+
+.navBar {
+    top: 0px;
+    left: 0px;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.socials {
+    top: 0px;
+    right: 0px;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px auto 10px auto
+    
+}
+
+div.description {
+    width: 1000px;
+    height: 100px;
+    margin: 10px auto 10px auto
+}
+
+p.homePage {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+img.codePic1 {
+    width: 500px;
+    height: 500px;
+}
+
+img.healthcarePic {
+    width: 500px;
+    height: 500px; 
+} 
+
+img.codePic2 {
+    width: 500px;
+    height: 500px;
+}
+
+div.backgroundPics {
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+
+form.gitLink {
+    display: inline;
+    text-align: right;
+}
+
+form.linkedInLink {
+    display: inline;
+}
+

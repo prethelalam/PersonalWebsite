@@ -8,12 +8,13 @@
         <title>Prethel Alam's Website</title>
         <meta name = "Introduction" content = "Home page that introduces Prethel and website" />
         <meta http-equib = "Author" content = "Prethel Alam" />
+        <link rel = "stylesheet" href = "styles.css">
         <!--maybe dont include the meta that is right below this comment-->
     </head>
     
     <body> <!--make this a header tab, dont need to use section here. use nav for linkes-->
         <header>
-            <nav> <!--Tab section-->
+            <nav class = "navBar"> <!--Tab section-->
 
                 <!--Tabs put these at the top left of screen. goal is to make this like a menu (will prob need javascript). tabs will be fixed to the screen-->
                 <a href = "./homeIndex.html">Home</a> 
@@ -31,58 +32,61 @@
                 <a href = "./socialContact.html">Social/Contact</a>
     
                 <!--here we can add some buttons that will be on the right side of "welcome to my site" -->
+
+                
             </nav> <!--end of tab section-->
-    
-            <div> <!--Welcome section-->
-                <h1 homePage = "home page title">Welcome to my site!</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
-                <!--insert background image here-->
-            </div> <!--end of welcome section-->
             
-            <div> <!--Hyperlink Socials section-->
+            <div class = "socials"> <!--Hyperlink Socials section-->
                 <!--will adjust the size later with css, also adjust the background color for these-->
                 <!--this will be fixed to the screen-->
-                <form action = "https://github.com/prethelalam" target = blank>
+                <form class = "gitLink" action = "https://github.com/prethelalam" target = blank>
                     <button> 
                         <img src = "images/githubLogo2.png" alt = "GitHub logo link" /> 
                     </button>
                 </form>
     
-                <form action = "https://www.linkedin.com/in/prethelalam/" target = blank>
+                <form class = "linkedInLink" action = "https://www.linkedin.com/in/prethelalam/" target = blank>
                     <button>
                         <img src = "images/linkedinLogo.png" alt = "LinkedIn logo link" /> 
                     </button>
                 </form>
     
-                <form action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
+                <form class = "handshakeLink" action = "https://utdallas.joinhandshake.com/stu/users/22992235" target = blank>
                     <button>
                         <img src = "images/HandshakeLogo.png" alt = "Handshake logo link" />  
                     </button>
                 </form>
     
-                <form action = mailto:prethelalam@gmail.com target blank>
+                <form class = "emailLink" action = mailto:prethelalam@gmail.com target blank>
                     <button>
                         <img src = "images/emailLogo.png" alt = "Email logo link" />
                     </button>
                 </form>
             </div> <!--end of hyperlink socials section-->
+            
+
+            <div> <!--Welcome section-->
+                <h1 homePage = "home page title">Welcome to my site!</h1>        <!--put this in the very center of the screen. also add the tab selection and the logos for various socials -->
+                <!--insert background image here-->
+            </div> <!--end of welcome section-->
         </header>   
         
 
         <main>
             <section>
-                <div> <!--Background image section-->
-                    <img src= "images/codeImage.jpg" alt = "An image of code written on a laptop." width = "400" height = "400" /> 
+                <div class = "backgroundPics"> <!--Background image section-->
+                    <img class = "codePic1" src= "images/codeImage.jpg" alt = "An image of code written on a laptop." width = "400" height = "400" /> 
                     <!--adjust the size of this image using css. for now just put the images-->
         
-                    <img src = "images/healthcareImage.jpg" alt = "An image of the words healthcare" width = "400" length = "400" /> <!--resize with css, maybe stick with 3 images. make this one specifically a png--> 
+                    <img class = "healthcarePic" src = "images/healthcareImage.jpg" alt = "An image of the words healthcare" width = "400" length = "400" /> <!--resize with css, maybe stick with 3 images. make this one specifically a png--> 
         
-                    <img src = "images/code.jpg" alt = "An image of code written on a phone and laptop" width = "400" height = "400" /> <!--adjsut size using css. delete the width and height first-->
+                    <img class = "codePic2" src = "images/code.jpg" alt = "An image of code written on a phone and laptop" width = "400" height = "400" /> <!--adjsut size using css. delete the width and height first-->
                 </div> <!--end of image section-->
             </section>
             
             <section>
-                <div> <!--text section-->
-                    <p homePage = "Home Page">Hello and thank you for visiting my corner of the internet. I'm Prethel Alam, a Computer Science student at UTD, who is passionate about the intersection of healthcare and technology. This website is a reflection of my coding journey, projects, experiences, and the things that inspire me.</p>
+                <div class = "description"> <!--text section-->
+                    <p class = "homePage">Hello and thank you for visiting my corner of the internet. I'm Prethel Alam, a Computer Science student at UTD, who is passionate about the intersection of healthcare and technology. This website is a reflection of my coding journey, projects, experiences, and the things that inspire me.</p>
                     <!--make font bigger and make it in the center of all the photos -->
                 </div> <!--end of text section-->
                 
