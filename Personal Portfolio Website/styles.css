@@ -1,33 +1,71 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    margin: 75px 100px 75px 100px;
-    background-color: lightgreen; /*will delete this color later */
+    margin: 75px auto 75px auto;
+    background-color: lightblue; /*will delete this color later */
+    max-width: 2000px;
+    text-align: center;
 }
 
-/*
-.navBar, .socials {
-    display: inline;
-} */
-
-.navBar {
-    top: 0px;
-    left: 0px;
-    background-color: lightblue;
-    width: 300px;
+/*header css*/
+header {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.socials {
-    top: 0px;
-    right: 0px;
-    background-color: lightgrey;
+header {
+    position: fixed;
+    top: 0;
+    margin-top: 20px;
+    left: 50%; /*this will position the left edge of the header at 50% of the pages width*/
+    transform: translateX(-50%); /*this will shift the header left by 50% of its own width to center it*/
+    width: 100%;
+    background: lightgreen; /* Add background color to distinguish header */
+    padding: 10px 0; /* Add some padding for aesthetics */
+    z-index: 1000; /* Ensure header is above other content */
+    text-align: center; /* Center text within the header */
 }
+/*end of header css*/
 
 h1 {
     font-size: 32px;
     text-align: center;
     margin: 10px auto 10px auto
-    
 }
+
+/*tabs css*/
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    border-top: 2px solid black;
+    border-bottom: 4px double black;
+    padding: 10px;
+}
+
+ul {
+    padding: 15px;
+    margin: 0px auto 0px auto; /*here we are adding this to bring the tabs toward the center of the screen*/
+    text-align: center; /*here we are aligning the text to the center*/
+    display: inline-block;
+}   
+
+li {
+    margin: 0px 50px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+}
+
+a:hover, a.on {
+    color: blue;
+}
+/*end of tabs css*/
+
+
+
 
 div.description {
     width: 1000px;
@@ -42,6 +80,7 @@ p.homePage {
 }
 
 img.codePic1 {
+    margin-top: 150px;
     width: 500px;
     height: 500px;
 }
@@ -55,19 +94,3 @@ img.codePic2 {
     width: 500px;
     height: 500px;
 }
-
-div.backgroundPics {
-    margin: 10px auto 10px auto;
-    text-align: center;
-}
-
-
-form.gitLink {
-    display: inline;
-    text-align: right;
-}
-
-form.linkedInLink {
-    display: inline;
-}
-
