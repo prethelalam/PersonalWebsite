@@ -6,17 +6,15 @@ body {
     background-color: lightblue; /*will delete this color later */
     max-width: 1700px;
     text-align: center;
+    overflow: auto;
 }
 
-/******************************header css***********************/
+/****************************** header css ***********************/
+
 header {
     position: fixed;
     margin-left: auto;
     margin-right: auto;
-}
-
-header {
-    position: fixed;
     top: 0px;
     left: 50%; /*this will position the left edge of the header at 50% of the pages width*/
     transform: translateX(-50%); /*this will shift the header left by 50% of its own width to center it*/
@@ -65,7 +63,7 @@ a:hover, a.on {
 }
 /*end of tabs css*/
 
-/**************************body css*****************************/
+/************************** body css *****************************/
 
 /*home page css*/
 
@@ -126,10 +124,65 @@ p.experienceInfo {
     font-size: 18px;
     text-align: justify;
     margin: 20px auto 0px auto;
-    padding: 0px;
     padding: 10px;
 }
 
+/*finish-figure out what images you'll be putting*/
+
+/*goals css*/
+div.goals {
+    width: 1270px;
+    height: 100px;
+    margin: 15px auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+p.info {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+}
+
+div.titles {
+    font-size: 24px;
+    display: grid;
+    padding: 0px;
+    margin: 135px auto 0px auto;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 1270px;
+}
+
+p.title1, p.title2 {
+    border-bottom: 1.5px solid black;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+div.pictures {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 175px auto 0px auto;
+    width: 1270px;
+    padding: 10px;
+}
+
+img.StPic {
+    width: 630px;
+    margin: 0px auto 0px auto;
+    height: 400px;
+}
+
+img.LtPic {
+    width: 630px;
+    margin: 0px auto 0px auto;
+    height: 400px;
+}
 
 
 
