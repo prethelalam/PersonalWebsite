@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/*header css*/
+/******************************header css***********************/
 header {
     position: fixed;
     margin-left: auto;
@@ -17,8 +17,7 @@ header {
 
 header {
     position: fixed;
-    top: 0;
-    margin-top: 20px;
+    top: 0px;
     left: 50%; /*this will position the left edge of the header at 50% of the pages width*/
     transform: translateX(-50%); /*this will shift the header left by 50% of its own width to center it*/
     width: 100%;
@@ -30,31 +29,30 @@ header {
 /*end of header css*/
 
 h1 { /*keep in mind you are using a sixteen pixel scale*/
-    font-size: 32px;
+    font-size: 36px;
     text-align: center;
     margin: 10px auto 10px auto
 }
 
 /*tabs css*/
 nav {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1350px;
+    margin: 0px auto 0px auto;
+    width: 1250px;
     border-top: 2px solid black;
     border-bottom: 4px double black;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 ul {
-    padding: 15px;
+    padding: 0px;
     margin: 0px auto 0px auto; /*here we are adding this to bring the tabs toward the center of the screen*/
     text-align: center; /*here we are aligning the text to the center*/
     display: inline-block;
 }   
 
 li {
-    margin: 0px 50px;
+    margin: 0px 40px;
     display: inline-block;
 }
 
@@ -67,22 +65,75 @@ a:hover, a.on {
 }
 /*end of tabs css*/
 
-/*body css*/
+/**************************body css*****************************/
+
+/*home page css*/
+
 p.homePage {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px auto 10px auto;
+    padding: 0px;
+}
+
+p.homePage1 {
+    font-size: 18px;
     text-align: center;
     margin: 20px auto 10px auto;
     padding: 0px;
 }
 
 div.description {
-    width: 1000px;
+    width: 1250px;
     height: 100px;
-    margin: 10px auto 100px auto
+    margin: 10px auto 100px auto;
+}
+
+/*about page css*/
+
+p.aboutInfo {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+}
+
+div.aboutDescription {
+    width: 1250px;
+    height: 100px;
+    margin: 10px auto 375px auto;
+    padding: 0px;
+}
+
+img.selfie {
+    width: 1270px;
+    margin: 65px auto 0px auto;
+}
+
+/*experience/projects css*/
+
+div.experienceDescription {
+    width: 1250px;
+    height: 100px;
+    margin: 500px auto 375px auto;
+    padding: 0px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); /*this creates 3 equal width columns*/
+    gap: 10px;
+}
+
+p.experienceInfo {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+    padding: 10px;
 }
 
 
-/*home page: make sure the width of the nav bar is the same as the pics and the paragraph*/
+
+
+
 
 
 
@@ -92,10 +143,7 @@ div.description {
 /*other css that you need to revise*/
 
 
-
-
-
-img.codePic1 {
+img.codePic1 { /* will adjust the width to be even and uniform with the page*/
     margin-top: 100px;
     width: 500px;
     height: 500px;
